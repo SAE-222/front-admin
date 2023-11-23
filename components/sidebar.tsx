@@ -24,35 +24,33 @@ const Sidebar = () => {
     ]
 
     return (
-        <div className="p-3">
-            <div className="lg:fixed lg:inset-y-0 lg:flex lg:w-72 lg:flex-col">
-                <div className="flex grow flex-col gapy-y-5 overflow-y-auto bg-gray-100 px-6 pb-4 border-r-2">
-                    <div className="flex h-16 shrink-0 items-center ">
-                    <Image src={logo} alt="Large Image" layout="fixed" className="rounded-lg"  objectFit="cover" width={55} height={55}/>
-                    </div>
-                    <nav className="flex flex-1 flex-col">
-                        <ul role="list" className="flex flex-1 flex-col gap-y-7">
-                            <li>
-                                <ul role="list" className="-mx-2 space-y-1">
-                                    {
-                                        sidebarOptions.map((option) =>(
-                                            <li key={option.name} >
-                                                <Link href={option.href} className={classNames(option.current ? "bg-gray-200 text-white" : "text-gray-700 hover:bg-gray-700", "group flex gap-x-3 rounded-md p-2 text-sm leading-6 fontsemibold hover:bg-gray-200" )}>
-                                                <option.icon className="text-gray-700 group-hover:text-white h-6 w-6 shrink-0   "/>
-                                                {option.name}
-                                                </Link>
-                                            </li>
-                                        ))
-                                    }
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>            
+        <div className="lg:flex lg:flex-col h-screen bg-gray-100">
+          <div className="lg:w-60 lg:flex-shrink-0">
+            <div className="flex flex-col h-full">
+              <div className="flex h-16 items-center justify-center">
+                <Image src={logo} alt="Large Image" layout="fixed" className="rounded-lg" objectFit="cover" width={55} height={55} />
+              </div>
+              <hr className="my-2 border-t border-gray-300" /> {/* Trait de séparation */}
+              <nav className="flex-1 flex flex-col justify-center items-center">
+                <ul role="list" className="flex-1 flex flex-col gap-y-7 p-2">
+                  <li>
+                    <ul role="list" className="space-y-1">
+                      {sidebarOptions.map((option) => (
+                        <li key={option.name}>
+                          <Link href={option.href} className={classNames(option.current ? "bg-gray-200 text-white" : "text-gray-700 hover:bg-gray-700", "group flex gap-x-3 rounded-md p-2 text-sm leading-6 fontsemibold hover:bg-gray-200")}>
+                            <option.icon className="text-gray-700 group-hover:text-white h-6 w-6 shrink-0" />
+                            <span className="font-bold">{option.name}</span>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
         </div>
-    )
+      );
 }
 
 export default Sidebar
-
