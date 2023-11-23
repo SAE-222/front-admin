@@ -1,21 +1,28 @@
-import Sidebar from "../../../components/sidebar"
+// layout.tsx
+import Sidebar from "../../../components/sidebar";
+import Header from "../../../components/Header";
 import { ReactNode } from "react";
 
 type Props = {
-    children : ReactNode
-}
+  children: ReactNode;
+};
 
-const layout = (props : Props) => {
-    return(
-        <div className= "flex mx-auto w-full">
-            <div>
-                <Sidebar/>
-            </div>
-            <main className="w-full">
-                {props.children}
-            </main>
+const Layout = (props: Props) => {
+  return (
+    <div className="flex flex-col h-screen">
+      <div className="flex">
+        <div>
+          <Sidebar />
         </div>
-    )
-}
+        <div className="flex flex-col w-full">
+          <Header />
+          <main className="flex-grow p-4 overflow-y-auto">
+            {props.children}
+          </main>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default layout
+export default Layout;
