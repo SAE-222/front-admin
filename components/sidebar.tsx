@@ -28,7 +28,7 @@ const Sidebar = () => {
           <div className="lg:w-60 lg:flex-shrink-0">
             <div className="flex flex-col h-full">
               <div className="flex h-16 items-center justify-center">
-                <Image src={logo} alt="Large Image" layout="fixed" className="rounded-lg" objectFit="cover" width={55} height={55} />
+                <Image src={logo} alt="Large Image" layout="fixed" className="rounded-lg" objectFit="cover" width={50} height={50} />
               </div>
               <hr className="my-2 border-t border-gray-300" /> {/* Trait de séparation */}
               <nav className="flex-1 flex flex-col justify-center items-center">

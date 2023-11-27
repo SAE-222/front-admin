@@ -1,7 +1,7 @@
 const Parametres = () => {
     return (
       <div>
-        <h1>Parametres Page</h1>
+        <h1 className="font-bold text-3xl">Paramètres</h1>
       </div>
     )
   }

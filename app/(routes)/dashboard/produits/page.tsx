@@ -1,7 +1,7 @@
 const Produits = () => {
     return (
       <div>
-        <h1>Produits Page</h1>
+        <h1 className="font-bold text-3xl">Produits</h1>
       </div>
     )
   }

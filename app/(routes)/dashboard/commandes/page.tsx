@@ -1,7 +1,7 @@
 const Commandes = () => {
     return (
       <div>
-        <h1>Commandes Page</h1>
+        <h1 className="font-bold text-3xl">Commandes</h1>
       </div>
     )
   }
