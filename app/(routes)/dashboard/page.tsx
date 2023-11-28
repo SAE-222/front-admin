@@ -5,21 +5,22 @@ import ProductsTotal from '../../../components/dashboard/productsTotal';
 import RevenueChart from '../../../components/dashboard/revenueChart';
 import CustomersTotal from '../../../components/dashboard/customersTotal';
 
-
 const Dashboard = () => {
   return (
-    <div>
+    <div className='px-4'>
       <h1 className="font-bold text-3xl">Tableau de bord</h1>
 
-      <div className='gap-14' style={{ display: 'flex'}}>
+      <div className='gap-14 pt-4 flex '>
         <SalesTotal />
         <OrdersTotal />
         <ProductsTotal />
       </div>
 
-      <h2 className='font-semibold'>Revenu total</h2>
-      <div className='pt-8 flex'>
+      <div className='flex bg-gray-100 rounded-lg mt-4'>
         <RevenueChart />
+      </div>
+
+      <div className='bg-gray-100 rounded-lg mt-4'>
         <CustomersTotal />
       </div>
     </div>
