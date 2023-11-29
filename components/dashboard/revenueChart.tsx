@@ -1,57 +1,79 @@
 "use client"
-import React, { useEffect, useRef } from 'react';
-import 'react-apexcharts';
+import { useState, useEffect } from "react";
+import { Bar } from 'react-chartjs-2';
+import {
+  Chart as ChartJS,
+  LinearScale,
+  CategoryScale,
+  Title,
+  Legend,
+  Tooltip,
+  BarElement,
+} from 'chart.js';
 
-const RevenueChart = () => {
-  const chartRef = useRef(null);
+ChartJS.register(
+  LinearScale,
+  CategoryScale,
+  Title,
+  Legend,
+  Tooltip,
+  BarElement
+);
 
-  const options = {
-    series: [{
-      name: '€',
-      data: [1099, 2569, 3360, 4808, 5000, 7853, 8026, 9685, 11236, 12596, 13785, 21563],
-    }],
-    chart: {
-      height: 300,
-      type: 'line',
-      zoom: {
-        enabled: true,
-      },
-    },
-    dataLabels: {
-      enabled: true,
-    },
-    stroke: {
-      curve: 'straight',
-    },
-    title: {
-      text: 'Revenu total',
-      align: 'left',
-    },
-    grid: {
-      row: {
-        colors: ['#f3f3f3', 'transparent'],
-        opacity: 0.5,
-      },
-    },
-    xaxis: {
-      categories: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec" ]
-    },
+export default function BarChart() {
+  type ChartData = {
+    labels?: string[];
+    datasets: any[];
   };
 
-  useEffect(() => {
-    const chart = new ApexCharts(chartRef.current, options);
-    chart.render();
+  const [chartData, setChartData] = useState<ChartData>({
+    datasets: []
+  });
 
-    return () => {
-      chart.destroy();
-    };
-  }, [options]);
+  const [chartOptions, setChartOptions] = useState({});
+
+  useEffect(() => {
+    setChartData({
+      labels: ['Mon', 'Tues', 'Wed'],
+      datasets: [
+        {
+          label: 'Sales',
+          data: [123, 456, 789],
+          borderColor: 'rgb(53, 162, 235)',
+          backgroundColor: 'rgb(53, 162, 235, 0.4)'
+        }
+      ]
+    });
+
+    setChartOptions({
+      scales: {
+        x: {
+          type: 'category',
+          position: 'bottom'
+        },
+        y: {
+          type: 'linear',
+          position: 'left'
+        }
+      },
+      plugins: {
+        legend: {
+          position: 'top'
+        },
+        title: {
+          display: true,
+          text: "Daily Revenue"
+        }
+      },
+      maintainAspectRatio: false,
+      responsive: true
+    });
+  }, []);
 
   return (
-    <div id="chart" ref={chartRef} style={{ width: '100%' }} />
+    <div className="container">
+      <Bar data={chartData} options={chartOptions} />
+    </div>
   );
-};
-
-export default RevenueChart;
-
+}
 

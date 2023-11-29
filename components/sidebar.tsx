@@ -24,10 +24,10 @@ const Sidebar = () => {
     ]
 
     return (
-        <div className="lg:flex lg:flex-col h-full bg-gray-100 ">
+        <div className="lg:flex lg:flex-col h-full  bg-gray-100 ">
           <div className="lg:w-60 lg:flex-shrink-0">
-            <div className="flex flex-col h-full">
-              <div className="flex h-16 items-center justify-center pt-2">
+            <div className="">
+              <div className="flex  items-center justify-center pt-2">
                 <Image src={logo} alt="Large Image" layout="fixed" className="rounded-lg" objectFit="cover" width={50} height={50} />
               </div>
               <hr className="my-2 border-t border-gray-300" /> {/* Trait de séparation */}
