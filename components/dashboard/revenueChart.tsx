@@ -1,6 +1,5 @@
-"use client"
 import { useState, useEffect } from "react";
-import { Bar } from 'react-chartjs-2';
+import { Line } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
   LinearScale,
@@ -8,7 +7,8 @@ import {
   Title,
   Legend,
   Tooltip,
-  BarElement,
+  PointElement,
+  LineElement,
 } from 'chart.js';
 
 ChartJS.register(
@@ -17,10 +17,11 @@ ChartJS.register(
   Title,
   Legend,
   Tooltip,
-  BarElement
+  PointElement,
+  LineElement
 );
 
-export default function BarChart() {
+export default function LineChart() {
   type ChartData = {
     labels?: string[];
     datasets: any[];
@@ -34,13 +35,16 @@ export default function BarChart() {
 
   useEffect(() => {
     setChartData({
-      labels: ['Mon', 'Tues', 'Wed'],
+      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
       datasets: [
         {
-          label: 'Sales',
-          data: [123, 456, 789],
+          label: 'Revenu en €',
+          data: [123, 456, 789, 567, 890, 432, 654, 987, 321, 654, 876, 543],
           borderColor: 'rgb(53, 162, 235)',
-          backgroundColor: 'rgb(53, 162, 235, 0.4)'
+          backgroundColor: 'rgb(53, 162, 235, 0.2)',
+          fill: false,
+          pointBackgroundColor: 'rgb(53, 162, 235)',
+          pointRadius: 5,
         }
       ]
     });
@@ -62,7 +66,7 @@ export default function BarChart() {
         },
         title: {
           display: true,
-          text: "Daily Revenue"
+          text: "Revenu Total"
         }
       },
       maintainAspectRatio: false,
@@ -72,8 +76,7 @@ export default function BarChart() {
 
   return (
     <div className="container">
-      <Bar data={chartData} options={chartOptions} />
+      <Line data={chartData} options={chartOptions} />
     </div>
   );
 }
-
