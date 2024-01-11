@@ -1,8 +1,10 @@
 "use client"
 
 import dynamic from 'next/dynamic';
-import { Textarea } from "../../../../../@/components/ui/textarea.jsx"
-import { Switch } from "../../../../../@/components/ui/switch"
+import { Textarea } from "../../../../../@/components/ui/textarea"
+import TabMarques from '../../../../../components/ajouterProduit/tabMarques';
+import TabCategories from '../../../../../components/ajouterProduit/tabCategories';
+import TabPromos from '../../../../../components/ajouterProduit/tabPromos';
 
 
 
@@ -19,11 +21,11 @@ function AjouterProduit() {
   return (
       
 
-      <div>
-        <h1 className="font-bold text-3xl">Ajouter Produit</h1>
+  <div>
+    <h1 className="font-bold text-3xl">Ajouter Produit</h1>
 
-        <div className='flex space-x-4'>
-        <div className=' bg-gray-100 rounded-lg w-2/3'>
+    <div className='flex space-x-2'>
+      <div className=' bg-gray-100 rounded-lg w-2/3'>
         
         <div className='flex'>
 
@@ -65,7 +67,7 @@ function AjouterProduit() {
 
         <div className='flex px-2 py-2 space-x-2'>
           
-          <div className='w-full min-h-[272px]'>
+          <div className='w-full min-h-[316px]'>
               <h2>Description</h2>
               <div>
                 <Textarea />
@@ -111,53 +113,67 @@ function AjouterProduit() {
                         <label htmlFor="laravel-checkbox" className="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">XXL</label>
                     </div>
                 </li>
+                <button type="button" className=" w-full h-[44px] inline-block rounded-b-md bg-blue-600  px-6 pb-2 pt-2.5 text-s font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-blue-500 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] active:bg-blue-600 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"> 
+                  Valider
+                </button>
             </ul>
           </div>
 
         </div>
-
-
-        <div className='  py-2 space-x-2'>
-
-          
-
-        </div>
-       
-
+        
       </div>
 
-      <div className='pt-[248px]'>
+      <div className='pt-[292px]'>
         <div className='space-x-2 bg-gray-100 rounded-lg'>
 
-        <div className="mb-3  px-2 py-2">
-            <label
-              htmlFor="formFileMultiple"
-              className="mb-2 inline-block text-neutral-700 dark:text-neutral-200"
-              >Images</label
-            >
-            <input
-              className="relative bg-white m-0 block w-full min-w-0 rounded border border-solid border-neutral-300 bg-clip-padding px-3 text-base font-normal text-neutral-700 transition duration-300 ease-in-out file:-mx-3 file:-my-[0.32rem] file:overflow-hidden file:rounded-none file:border-0 file:border-solid file:border-inherit file:bg-neutral-100 file:px-3 file:py-[0.32rem] file:text-neutral-700 file:transition file:duration-150 file:ease-in-out file:[border-inline-end-width:1px] file:[margin-inline-end:0.75rem] hover:file:bg-neutral-200 focus:border-primary focus:text-neutral-700 focus:shadow-te-primary focus:outline-none dark:border-neutral-600 dark:text-neutral-200 dark:file:bg-neutral-700 dark:file:text-neutral-100 dark:focus:border-primary"
-              type="file"
-              id="formFileMultiple"
-              multiple />
+          <div className="mb-3  px-2 py-2">
+              <label
+                htmlFor="formFileMultiple"
+                className="mb-2 inline-block text-neutral-700 dark:text-neutral-200">
+                  Images
+              </label>
+              <input
+                className="relative bg-white m-0 block w-full min-w-0 rounded border border-solid border-neutral-300 bg-clip-padding px-3 text-base font-normal text-neutral-700 transition duration-300 ease-in-out file:-mx-3 file:-my-[0.32rem] file:overflow-hidden file:rounded-none file:border-0 file:border-solid file:border-inherit file:bg-neutral-100 file:px-3 file:py-[0.32rem] file:text-neutral-700 file:transition file:duration-150 file:ease-in-out file:[border-inline-end-width:1px] file:[margin-inline-end:0.75rem] hover:file:bg-neutral-200 focus:border-primary focus:text-neutral-700 focus:shadow-te-primary focus:outline-none dark:border-neutral-600 dark:text-neutral-200 dark:file:bg-neutral-700 dark:file:text-neutral-100 dark:focus:border-primary"
+                type="file"
+                id="formFileMultiple"
+                multiple />
           </div>
-      <h1>Disponibilité</h1>
-      <div className='flex justify-center pt-2 gap-2 text-sm'>
-            <h1>Non Disponible</h1>
-            <label className="relative inline-flex items-center mb-5 cursor-pointer">
+            <h1>Disponibilité</h1>
+            <div className='flex justify-center pt-2 gap-2 text-sm'>
+              <h1>Non Disponible</h1>
+              <label className="relative inline-flex items-center mb-5 cursor-pointer">
               <input type="checkbox" value="" className="sr-only peer"/>
-              <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:w-5 after:h-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-            </label>
-            <h1>Disponible</h1>
-          </div>
+                <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:w-5 after:h-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+              </label>
+              <h1>Disponible</h1>
+            </div>
 
-          
-          </div>
+        </div>
       </div>
-
-      </div>
-
     </div>
+
+    <div className='flex pt-4 space-x-2 '>
+      <div className='bg-gray-100 px-2 py-2 rounded-md w-full'>
+        <TabMarques />
+      </div>
+
+      <div className='bg-gray-100 px-2 py-2 rounded-md w-full'>
+        <TabCategories />
+      </div>
+
+      <div className='bg-gray-100 px-2 py-2 rounded-md w-full'>
+        <TabPromos />
+      </div>
+    </div>
+
+    <div className='py-4'>
+      <button type="button" className="w-full h-[44px] inline-block rounded-md bg-blue-600  px-6 pb-2 pt-2.5 text-s font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-blue-500 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] active:bg-blue-600 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"> 
+        Ajouter le produit
+      </button>
+    </div>
+    
+
+  </div>
       
 
     )
