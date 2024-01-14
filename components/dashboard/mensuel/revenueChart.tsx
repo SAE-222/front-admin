@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 import { Line } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
@@ -34,16 +34,20 @@ export default function LineChart() {
   const [chartOptions, setChartOptions] = useState({});
 
   useEffect(() => {
+    // Simuler des données pour 31 jours (vous devrez remplacer par vos propres données réelles)
+    const daysInMonth = 31;
+    const dailyData = Array.from({ length: daysInMonth }, (_, index) => Math.floor(Math.random() * 100));
+
     setChartData({
-      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+      labels: Array.from({ length: daysInMonth }, (_, index) => (index + 1).toString()), // Étiquettes des jours
       datasets: [
         {
           label: 'Revenu en €',
-          data: [123, 456, 789, 567, 890, 432, 654, 987, 321, 654, 876, 543],
-          borderColor: 'rgb(53, 162, 235)',
-          backgroundColor: 'rgb(53, 162, 235, 0.2)',
+          data: dailyData,
+          borderColor: 'rgb(255, 99, 132)', // Rouge
+          backgroundColor: 'rgb(255, 99, 132, 0.2)',
           fill: false,
-          pointBackgroundColor: 'rgb(53, 162, 235)',
+          pointBackgroundColor: 'rgb(255, 99, 132)',
           pointRadius: 5,
         }
       ]
@@ -66,7 +70,7 @@ export default function LineChart() {
         },
         title: {
           display: true,
-          text: "Revenu Total"
+          text: "Revenu Total par jour"
         }
       },
       maintainAspectRatio: false,
@@ -75,7 +79,7 @@ export default function LineChart() {
   }, []);
 
   return (
-    <div className=" bg-white rounded-lg w-full">
+    <div className="bg-white rounded-lg w-full">
       <Line data={chartData} options={chartOptions} />
     </div>
   );

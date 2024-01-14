@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 import { Bar } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
@@ -32,14 +32,17 @@ export default function BarChart() {
   const [chartOptions, setChartOptions] = useState({});
 
   useEffect(() => {
+    // Simuler des données pour 31 jours (vous devrez remplacer par vos propres données réelles)
+    const daysInMonth = 31;
+    const dailyData = Array.from({ length: daysInMonth }, (_, index) => Math.floor(Math.random() * 100));
+
     setChartData({
-      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+      labels: Array.from({ length: daysInMonth }, (_, index) => (index + 1).toString()), // Étiquettes des jours
       datasets: [
         {
-          label: 'nb Clients',
-          data: [123, 456, 789, 567, 890, 432, 654, 987, 321, 654, 876, 543],
-          borderColor: 'rgb(53, 162, 235)',
-          backgroundColor: 'rgb(53, 162, 235, 0.8)'
+          label: 'Nombre de commandes',
+          data: dailyData,
+          backgroundColor: 'rgba(86, 182, 150, 0.8)', // Nouvelle couleur (turquoise)
         }
       ]
     });
@@ -52,16 +55,17 @@ export default function BarChart() {
         },
         y: {
           type: 'linear',
-          position: 'left'
+          position: 'left',
+          min: 0,
         }
       },
       plugins: {
         legend: {
-          position: 'top'
+          display: false,
         },
         title: {
           display: true,
-          text: "Nombre de clients"
+          text: "Nombre de commandes par jour"
         }
       },
       maintainAspectRatio: false,
@@ -70,7 +74,7 @@ export default function BarChart() {
   }, []);
 
   return (
-    <div className=" bg-white rounded-lg w-full h-[272px]">
+    <div className="bg-white rounded-lg w-full">
       <Bar data={chartData} options={chartOptions} />
     </div>
   );

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 import { Bar } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
@@ -36,10 +36,9 @@ export default function BarChart() {
       labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
       datasets: [
         {
-          label: 'nb Clients',
-          data: [123, 456, 789, 567, 890, 432, 654, 987, 321, 654, 876, 543],
-          borderColor: 'rgb(53, 162, 235)',
-          backgroundColor: 'rgb(53, 162, 235, 0.8)'
+          label: 'Nombre de commandes',
+          data: [10, 20, 15, 30, 25, 40, 35, 45, 50, 55, 60, 50], // Ajoutez vos données réelles ici
+          backgroundColor: 'rgba(75,192,192,0.8)',
         }
       ]
     });
@@ -52,16 +51,17 @@ export default function BarChart() {
         },
         y: {
           type: 'linear',
-          position: 'left'
+          position: 'left',
+          min: 0,
         }
       },
       plugins: {
         legend: {
-          position: 'top'
+          display: false,
         },
         title: {
           display: true,
-          text: "Nombre de clients"
+          text: "Nombre de commandes par mois"
         }
       },
       maintainAspectRatio: false,
@@ -70,7 +70,7 @@ export default function BarChart() {
   }, []);
 
   return (
-    <div className=" bg-white rounded-lg w-full h-[272px]">
+    <div className=" bg-white rounded-lg w-full">
       <Bar data={chartData} options={chartOptions} />
     </div>
   );

@@ -6,6 +6,7 @@ import OrdersTotal from '../../../components/dashboard/ordersTotal';
 import ProductsTotal from '../../../components/dashboard/productsTotal';
 import RevenueChart from '../../../components/dashboard/revenueChart';
 import CustomersTotal from '../../../components/dashboard/customersTotal';
+import Statistiques from './statistiques/page';
 
 
 const Dashboard = () => {
@@ -13,18 +14,14 @@ const Dashboard = () => {
     <div className='px-4'>
       <h1 className="font-bold text-3xl">Tableau de bord</h1>
 
-      <div className='gap-4 pt-4 flex '>
+      <div className='gap-4 pt-4 flex pb-4'>
         <SalesTotal />
         <OrdersTotal />
         <ProductsTotal />
       </div>
 
-      <div className='flex bg-gray-100 rounded-lg mt-4 '>
-          <RevenueChart />
-      </div>
-
-      <div className='bg-gray-100 rounded-lg mt-4'>
-        <CustomersTotal />
+      <div>
+        <Statistiques />  
       </div>
     </div>
   );

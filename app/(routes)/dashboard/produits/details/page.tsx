@@ -1,26 +1,29 @@
 import Image from 'next/image';
-import chemise from "./images/chemise.jpg";
 import React from "react";
 
 const ProduitDetails = () => {
   const produit = {
-    id: 1,
-    image: chemise,
+    id: 3,
+    image: "https://img01.ztat.net/article/spp-media-p1/25497c6b498a4ec58d9f81c83f94586f/0023bc3485d34a8c9eaf07f22581e097.jpg?imwidth=1800",
     categorie: "Homme",
-    nom: "Chemise élégante",
-    description: "Découvrez l'élégance intemporelle avec notre Chemise Élégante FashionCo, une pièce incontournable pour toute garde-robe sophistiquée. Conçue pour allier confort et style, cette chemise incarne la perfection artisanale. Découvrez l'élégance intemporelle avec notre Chemise Élégante FashionCo, une pièce incontournable pour toute garde-robe sophistiquée. Conçue pour allier confort et style, cette chemise incarne la perfection artisanale.",
+    nom: "T-shirt",
+    description: "Tee-shirt manche courte Adidas Homme",
     disponibilite: "En stock",
-    stock: 20,
-    marque: "FashionCo",
-    prix: "39,99 € ",
+    stock: 50,
+    marque: "Adidas",
+    prix: "19,99 € ",
   };
 
   return (
-    <div className="">
+    <div>
       <h1 className="text-3xl font-bold mb-4">Détails du Produit</h1>
-      <div className='flex p-2'>
+      <div className='flex p-2 h-[780px]'>
             <div>
-            <Image src={chemise} alt="Large Image" layout="fixed" className="rounded-lg" objectFit="cover" width={600} height={50} />
+            <img
+                  src={produit.image}
+                  alt={produit.nom}
+                  className="w-[300px]  object-cover rounded"
+                />
             </div>
             <div>
                 <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
