@@ -8,7 +8,7 @@ const CustomerInfo = () => {
   useEffect(() => {
     // Simulez des données de clients et de commandes (à remplacer par vos propres données)
     const customerData = [
-      { id: 2, name: 'Jane Doe', gender: 'Female', totalSpent: 700, orderCount: 5 },
+      { id: 2, name: 'Marie Robert', gender: 'Femme', totalSpent: 185.27, orderCount: 2 },
       // ... Autres clients
     ];
 
@@ -25,7 +25,7 @@ const CustomerInfo = () => {
     <div>
         <div className='flex gap-2 bg-white p-2 rounded-lg h-full'>
             <div>
-                <SparklesIcon className="w-6 h-6 text-white bg-green-400 rounded-full " />
+                <SparklesIcon className="w-6 h-6 text-green-400 rounded-full " />
             </div>
             <div className='w-[300px]'>
                 <h2 className='font-semibold'>Client du mois !</h2>
@@ -37,7 +37,7 @@ const CustomerInfo = () => {
                         <td>{topCustomer.name}</td>
                         </tr>
                         <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                        <td className="px-6 py-4 text-black"><strong>Femme:</strong></td>
+                        <td className="px-6 py-4 text-black"><strong>Sexe:</strong></td>
                         <td>{topCustomer.gender}</td>
                         </tr>
                         <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">

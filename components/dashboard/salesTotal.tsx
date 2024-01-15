@@ -2,7 +2,7 @@ import React from 'react';
 import { CurrencyEuroIcon } from "@heroicons/react/outline";
 
 const SalesTotal = () => {
-  const totalSales = 5000; 
+  const totalSales = 4285.55; 
 
   return (
     <div className="bg-gray-100 rounded-lg px-4 py-4 flex items-center">
@@ -11,7 +11,7 @@ const SalesTotal = () => {
       </div>
 
       <div>
-        <h2 className="">Total de ventes</h2>
+        <h2 className="">Total de ventes (mensuel)</h2>
         <p className="font-semibold">{totalSales} €</p>
       </div>
     </div>

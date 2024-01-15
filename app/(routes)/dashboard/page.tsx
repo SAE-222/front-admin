@@ -11,10 +11,10 @@ import Statistiques from './statistiques/page';
 
 const Dashboard = () => {
   return (
-    <div className='px-4'>
+    <div>
       <h1 className="font-bold text-3xl">Tableau de bord</h1>
 
-      <div className='gap-4 pt-4 flex pb-4'>
+      <div className='gap-2  flex pb-2'>
         <SalesTotal />
         <OrdersTotal />
         <ProductsTotal />

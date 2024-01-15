@@ -2,7 +2,7 @@ import React from 'react';
 import { ShoppingBagIcon} from "@heroicons/react/outline";
 
 const ProductsTotal = () => {
-  const totalProducts = 65;
+  const totalProducts = 144;
 
   return (
     <div className="bg-gray-100 rounded-lg px-4 py-4 flex items-center">

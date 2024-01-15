@@ -1,7 +1,7 @@
 import { ShoppingCartIcon } from "@heroicons/react/outline";
 
 const OrdersTotal = () => {
-  const totalOrders = 150;
+  const totalOrders = 47;
 
   return (
     <div className="bg-gray-100 rounded-lg px-4 py-4 flex items-center">
@@ -10,7 +10,7 @@ const OrdersTotal = () => {
       </div>
 
       <div>
-        <h2 className="">Total de commandes</h2>
+        <h2 className="">Total de commandes (mensuel)</h2>
         <p className="font-semibold">{totalOrders}</p>
       </div>
     </div>

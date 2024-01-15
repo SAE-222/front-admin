@@ -13,6 +13,7 @@ const TabCommandes = () => {
       addressBilling: "456 Rue de la Facturation",
       postalCodeDelivery: "75001",
       postalCodeBilling: "75002",
+      montant: 55.99,
     },
     {
       id: 2,
@@ -22,6 +23,7 @@ const TabCommandes = () => {
       addressBilling: "101 Rue de la Facturation",
       postalCodeDelivery: "75003",
       postalCodeBilling: "75004",
+      montant: 29.99,
     },
     {
       id: 3,
@@ -31,6 +33,7 @@ const TabCommandes = () => {
       addressBilling: "222 Rue de la Facturation",
       postalCodeDelivery: "75005",
       postalCodeBilling: "75006",
+      montant: 38.75,
     },
     {
       id: 4,
@@ -40,6 +43,7 @@ const TabCommandes = () => {
       addressBilling: "444 Rue de la Facturation",
       postalCodeDelivery: "75007",
       postalCodeBilling: "75008",
+      montant: 79.99,
     },
     {
       id: 5,
@@ -49,6 +53,7 @@ const TabCommandes = () => {
       addressBilling: "666 Rue de la Facturation",
       postalCodeDelivery: "75009",
       postalCodeBilling: "75010",
+      montant: 46.50,
     },
     {
       id: 6,
@@ -58,6 +63,7 @@ const TabCommandes = () => {
       addressBilling: "888 Rue de la Facturation",
       postalCodeDelivery: "75011",
       postalCodeBilling: "75012",
+      montant: 64.99,
     },
     {
       id: 7,
@@ -67,6 +73,7 @@ const TabCommandes = () => {
       addressBilling: "000 Rue de la Facturation",
       postalCodeDelivery: "75013",
       postalCodeBilling: "75014",
+      montant: 105.00,
     },
     {
       id: 8,
@@ -76,6 +83,7 @@ const TabCommandes = () => {
       addressBilling: "456 Rue des Factures",
       postalCodeDelivery: "75015",
       postalCodeBilling: "75016",
+      montant: 89.99,
     },
     {
       id: 9,
@@ -85,6 +93,7 @@ const TabCommandes = () => {
       addressBilling: "101 Rue des Facturations",
       postalCodeDelivery: "75017",
       postalCodeBilling: "75018",
+      montant: 47.75,
     },
     {
       id: 10,
@@ -94,6 +103,7 @@ const TabCommandes = () => {
       addressBilling: "222 Rue des Factures",
       postalCodeDelivery: "75019",
       postalCodeBilling: "75020",
+      montant: 32.99,
     },
     {
       id: 11,
@@ -103,6 +113,7 @@ const TabCommandes = () => {
       addressBilling: "101 Rue des Factures",
       postalCodeDelivery: "75021",
       postalCodeBilling: "75022",
+      montant: 59.99,
     },
     {
       id: 12,
@@ -112,6 +123,7 @@ const TabCommandes = () => {
       addressBilling: "222 Rue des Facturations",
       postalCodeDelivery: "75023",
       postalCodeBilling: "75024",
+      montant: 29.99,
     },
     {
       id: 13,
@@ -121,6 +133,7 @@ const TabCommandes = () => {
       addressBilling: "444 Rue des Factures",
       postalCodeDelivery: "75025",
       postalCodeBilling: "75026",
+      montant: 44.99,
     },
     {
       id: 14,
@@ -130,6 +143,7 @@ const TabCommandes = () => {
       addressBilling: "666 Rue des Facturations",
       postalCodeDelivery: "75027",
       postalCodeBilling: "75028",
+      montant: 72.99,
     },
     {
       id: 15,
@@ -139,6 +153,7 @@ const TabCommandes = () => {
       addressBilling: "888 Rue des Factures",
       postalCodeDelivery: "75029",
       postalCodeBilling: "75030",
+      montant: 39.99,
     },
     {
       id: 16,
@@ -148,6 +163,7 @@ const TabCommandes = () => {
       addressBilling: "000 Rue des Facturations",
       postalCodeDelivery: "75031",
       postalCodeBilling: "75032",
+      montant: 67.99,
     },
     {
       id: 17,
@@ -157,6 +173,7 @@ const TabCommandes = () => {
       addressBilling: "456 Rue de la Logistique",
       postalCodeDelivery: "75033",
       postalCodeBilling: "75034",
+      montant: 54.99,
     },
     {
       id: 18,
@@ -166,6 +183,7 @@ const TabCommandes = () => {
       addressBilling: "101 Rue de la Distribution",
       postalCodeDelivery: "75035",
       postalCodeBilling: "75036",
+      montant: 29.99,
     },
     {
       id: 19,
@@ -175,6 +193,7 @@ const TabCommandes = () => {
       addressBilling: "222 Rue du Stockage",
       postalCodeDelivery: "75037",
       postalCodeBilling: "75038",
+      montant: 89.99,
     },
     {
       id: 20,
@@ -184,8 +203,281 @@ const TabCommandes = () => {
       addressBilling: "444 Rue de la Gestion des Stocks",
       postalCodeDelivery: "75039",
       postalCodeBilling: "75040",
+      montant: 99.99,
+    },
+    {
+      id: 21,
+      status: "En cours de traitement",
+      date: "2024-02-24",
+      addressDelivery: "555 Rue du Traitement",
+      addressBilling: "666 Rue de la Facturation",
+      postalCodeDelivery: "75041",
+      postalCodeBilling: "75042",
+      montant: 34.99,
+    },
+    {
+      id: 22,
+      status: "Expédiée",
+      date: "2024-02-23",
+      addressDelivery: "777 Rue de l'Expédition",
+      addressBilling: "888 Rue de la Distribution",
+      postalCodeDelivery: "75043",
+      postalCodeBilling: "75044",
+      montant: 49.99,
+    },
+    {
+      id: 23,
+      status: "En attente de paiement",
+      date: "2024-02-22",
+      addressDelivery: "999 Rue de la Manutention",
+      addressBilling: "000 Rue du Stockage",
+      postalCodeDelivery: "75045",
+      postalCodeBilling: "75046",
+      montant: 59.99,
+    },
+    {
+      id: 24,
+      status: "Livraison en cours",
+      date: "2024-02-21",
+      addressDelivery: "111 Rue de la Chaîne d'Approvisionnement",
+      addressBilling: "222 Rue de la Gestion des Stocks",
+      postalCodeDelivery: "75047",
+      postalCodeBilling: "75048",
+      montant: 99.99,
+    },
+    {
+      id: 25,
+      status: "En cours de traitement",
+      date: "2024-02-20",
+      addressDelivery: "333 Rue du Traitement",
+      addressBilling: "444 Rue de la Facturation",
+      postalCodeDelivery: "75049",
+      postalCodeBilling: "75050",
+      montant: 29.99,
+    },
+    {
+      id: 26,
+      status: "Expédiée",
+      date: "2024-02-19",
+      addressDelivery: "555 Rue de l'Expédition",
+      addressBilling: "666 Rue de la Distribution",
+      postalCodeDelivery: "75051",
+      postalCodeBilling: "75052",
+      montant: 44.99,
+    },
+    {
+      id: 27,
+      status: "En attente de paiement",
+      date: "2024-02-18",
+      addressDelivery: "777 Rue de la Manutention",
+      addressBilling: "888 Rue du Stockage",
+      postalCodeDelivery: "75053",
+      postalCodeBilling: "75054",
+      montant: 69.99,
+    },
+    {
+      id: 28,
+      status: "Livraison en cours",
+      date: "2024-02-17",
+      addressDelivery: "999 Rue de la Chaîne d'Approvisionnement",
+      addressBilling: "000 Rue de la Gestion des Stocks",
+      postalCodeDelivery: "75055",
+      postalCodeBilling: "75056",
+      montant: 79.99,
+    },
+    {
+      id: 29,
+      status: "En cours de traitement",
+      date: "2024-02-16",
+      addressDelivery: "111 Rue du Traitement",
+      addressBilling: "222 Rue de la Facturation",
+      postalCodeDelivery: "75057",
+      postalCodeBilling: "75058",
+      montant: 39.99,
+    },
+    {
+      id: 30,
+      status: "Expédiée",
+      date: "2024-02-15",
+      addressDelivery: "333 Rue de l'Expédition",
+      addressBilling: "444 Rue de la Distribution",
+      postalCodeDelivery: "75059",
+      postalCodeBilling: "75060",
+      montant: 54.99,
+    },
+    {
+      id: 31,
+      status: "En attente de paiement",
+      date: "2024-02-14",
+      addressDelivery: "555 Rue de la Manutention",
+      addressBilling: "666 Rue du Stockage",
+      postalCodeDelivery: "75061",
+      postalCodeBilling: "75062",
+      montant: 84.99,
+    },
+    {
+      id: 32,
+      status: "Livraison en cours",
+      date: "2024-02-13",
+      addressDelivery: "777 Rue de la Chaîne d'Approvisionnement",
+      addressBilling: "888 Rue de la Gestion des Stocks",
+      postalCodeDelivery: "75063",
+      postalCodeBilling: "75064",
+      montant: 129.99,
+    },
+    {
+      id: 33,
+      status: "En cours de traitement",
+      date: "2024-02-12",
+      addressDelivery: "999 Rue du Traitement",
+      addressBilling: "000 Rue de la Facturation",
+      postalCodeDelivery: "75065",
+      postalCodeBilling: "75066",
+      montant: 74.99,
+    },
+    {
+      id: 34,
+      status: "Expédiée",
+      date: "2024-02-11",
+      addressDelivery: "111 Rue de l'Expédition",
+      addressBilling: "222 Rue de la Distribution",
+      postalCodeDelivery: "75067",
+      postalCodeBilling: "75068",
+      montant: 64.99,
+    },
+    {
+      id: 35,
+      status: "En attente de paiement",
+      date: "2024-02-10",
+      addressDelivery: "333 Rue de la Manutention",
+      addressBilling: "444 Rue du Stockage",
+      postalCodeDelivery: "75069",
+      postalCodeBilling: "75070",
+      montant: 59.99,
+    },
+    {
+      id: 36,
+      status: "Livraison en cours",
+      date: "2024-02-09",
+      addressDelivery: "555 Rue de la Chaîne d'Approvisionnement",
+      addressBilling: "666 Rue de la Gestion des Stocks",
+      postalCodeDelivery: "75071",
+      postalCodeBilling: "75072",
+      montant: 94.99,
+    },
+    {
+      id: 37,
+      status: "En cours de traitement",
+      date: "2024-02-08",
+      addressDelivery: "777 Rue du Traitement",
+      addressBilling: "888 Rue de la Facturation",
+      postalCodeDelivery: "75073",
+      postalCodeBilling: "75074",
+      montant: 49.99,
+    },
+    {
+      id: 38,
+      status: "Expédiée",
+      date: "2024-02-07",
+      addressDelivery: "999 Rue de l'Expédition",
+      addressBilling: "000 Rue de la Distribution",
+      postalCodeDelivery: "75075",
+      postalCodeBilling: "75076",
+      montant: 84.99,
+    },
+    {
+      id: 39,
+      status: "En attente de paiement",
+      date: "2024-02-06",
+      addressDelivery: "111 Rue de la Manutention",
+      addressBilling: "222 Rue du Stockage",
+      postalCodeDelivery: "75077",
+      postalCodeBilling: "75078",
+      montant: 119.99,
+    },
+    {
+      id: 40,
+      status: "Livraison en cours",
+      date: "2024-02-05",
+      addressDelivery: "333 Rue de la Chaîne d'Approvisionnement",
+      addressBilling: "444 Rue de la Gestion des Stocks",
+      postalCodeDelivery: "75079",
+      postalCodeBilling: "75080",
+      montant: 199.99,
+    },
+    {
+      id: 41,
+      status: "En cours de traitement",
+      date: "2024-02-04",
+      addressDelivery: "555 Rue du Traitement",
+      addressBilling: "666 Rue de la Facturation",
+      postalCodeDelivery: "75081",
+      postalCodeBilling: "75082",
+      montant: 59.99,
+    },
+    {
+      id: 42,
+      status: "Expédiée",
+      date: "2024-02-03",
+      addressDelivery: "777 Rue de l'Expédition",
+      addressBilling: "888 Rue de la Distribution",
+      postalCodeDelivery: "75083",
+      postalCodeBilling: "75084",
+      montant: 79.99,
+    },
+    {
+      id: 43,
+      status: "En attente de paiement",
+      date: "2024-02-02",
+      addressDelivery: "999 Rue de la Manutention",
+      addressBilling: "000 Rue du Stockage",
+      postalCodeDelivery: "75085",
+      postalCodeBilling: "75086",
+      montant: 89.99,
+    },
+    {
+      id: 44,
+      status: "Livraison en cours",
+      date: "2024-02-01",
+      addressDelivery: "111 Rue de la Chaîne d'Approvisionnement",
+      addressBilling: "222 Rue de la Gestion des Stocks",
+      postalCodeDelivery: "75087",
+      postalCodeBilling: "75088",
+      montant: 149.99,
+    },
+    {
+      id: 45,
+      status: "En cours de traitement",
+      date: "2024-01-31",
+      addressDelivery: "333 Rue du Traitement",
+      addressBilling: "444 Rue de la Facturation",
+      postalCodeDelivery: "75089",
+      postalCodeBilling: "75090",
+      montant: 129.99,
+    },
+    {
+      id: 46,
+      status: "Expédiée",
+      date: "2024-01-30",
+      addressDelivery: "555 Rue de l'Expédition",
+      addressBilling: "666 Rue de la Distribution",
+      postalCodeDelivery: "75091",
+      postalCodeBilling: "75092",
+      montant: 69.99,
+    },
+    {
+      id: 47,
+      status: "En attente de paiement",
+      date: "2024-01-29",
+      addressDelivery: "777 Rue de la Manutention",
+      addressBilling: "888 Rue du Stockage",
+      postalCodeDelivery: "75093",
+      postalCodeBilling: "75094",
+      montant: 44.99,
     },
   ];
+  
+  
 
   
 
@@ -254,7 +546,7 @@ const TabCommandes = () => {
               <input
                 type="text"
                 id="table-search"
-                className="block item-center ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg w-80 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                className="block item-center ps-10 text-sm h-[32px] text-gray-900 border border-gray-300 rounded-lg w-80 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 placeholder="Rechercher des commandes"
                 value={searchQuery}
                 onChange={(e) => handleSearch(e.target.value)}
@@ -296,6 +588,9 @@ const TabCommandes = () => {
               Date
             </th>
             <th scope="col" className="px-6 py-3">
+              Montant
+            </th>
+            <th scope="col" className="px-6 py-3">
               Adresse de Livraison
             </th>
             <th scope="col" className="px-6 py-3">
@@ -318,6 +613,7 @@ const TabCommandes = () => {
               <td className="px-6 py-4">{order.id}</td>
               <td className="px-6 py-4">{order.status}</td>
               <td className="px-6 py-4">{order.date}</td>
+              <td className="px-6 py-4">{order.montant} €</td>
               <td className="px-6 py-4">{order.addressDelivery}</td>
               <td className="px-6 py-4">{order.addressBilling}</td>
               <td className="px-6 py-4">{order.postalCodeDelivery}</td>
