@@ -129,370 +129,196 @@ const TabProduits = () => {
       marque: "Lacoste",
     },
     {
-      id: 15,
+      id: 16,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 17,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 18,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 19,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 20,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 21,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 22,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 23,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 24,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 25,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 26,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 27,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 28,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 29,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 30,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 31,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 32,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 33,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 34,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 35,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 36,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 37,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 38,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 39,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 40,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
+      id: 41,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
-      image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
-      categorie: "Homme",
-      nom: "Veste Lacoste",
-      disponibilite: "En stock",
-      marque: "Lacoste",
-    },{
-      id: 15,
+      id: 42,
       image: "https://img01.ztat.net/article/spp-media-p1/f1d4a4ab7f4b4057ba176fdf5ed9e19e/6cef8a7a60774900ae86e7c0718162a8.jpg?imwidth=1800",
       categorie: "Homme",
       nom: "Veste Lacoste",
       disponibilite: "En stock",
       marque: "Lacoste",
     },
+    
   ];
 
   const [products, setProducts] = useState(produits);
@@ -567,7 +393,7 @@ const TabProduits = () => {
               <div className="py-2">
                 <Link
                   href="/dashboard/produits/ajouter"
-                  className="inline-block rounded-md bg-blue-600 p-1 text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-blue-500 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] active:bg-blue-600 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
+                  className="inline-block rounded-md bg-blue-600 px-3 py-2 text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-blue-500 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] active:bg-blue-600 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
                 >
                   Ajouter Produit
                 </Link>
@@ -592,7 +418,8 @@ const TabProduits = () => {
               </select>
             </div>
           </div>
-          <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+          <div className="overflow-x-auto h-[830px] ">
+          <table className="w-full h-[300px] text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
             <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
               <tr>
                 <th scope="col" className="px-6 py-3">
@@ -651,7 +478,7 @@ const TabProduits = () => {
                   </td>
                   <td className="px-6 py-4">{produit.marque}</td>
                   <td className="px-6 py-4">
-                    <Link className="item-center border-2 p-1 rounded-lg text-black bg-gray-200" href="/dashboard/produits/details">
+                    <Link className="item-center border-2 p-2 rounded-lg text-black bg-gray-200" href="/dashboard/produits/details">
                       Afficher Details
                     </Link>
                   </td>
@@ -668,6 +495,7 @@ const TabProduits = () => {
               ))}
             </tbody>
           </table>
+          </div>
         </div>
   );
 };

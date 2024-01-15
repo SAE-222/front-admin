@@ -16,7 +16,7 @@ import TotalCommande from "../../../../components/dashboard/charts/totalCommande
 
 const Statistiques = () => {
     return (
-      <div className=''>
+      <div className='overflow-x-auto h-[830px]'>
         <h1 className="font-bold text-3xl">Statistiques</h1>
         <div className='pb-2'>
           <div className='bg-gray-100 p-2 rounded-md'>

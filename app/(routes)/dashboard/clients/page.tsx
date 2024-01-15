@@ -182,8 +182,8 @@ const tabClients = () => {
     <div>
     <h1 className="font-bold text-3xl">Clients</h1>
     <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
-      <div className="p-2 bg-gray-100 dark:bg-gray-900 items-center justify-between">
-        <div className="flex justify-between">
+      <div className="p-2 h-[56px] bg-gray-100 dark:bg-gray-900 items-center justify-between">
+        <div className="flex justify-between float-right">
           <div>
             <label htmlFor="table-search" className="sr-only">
               Search
@@ -236,6 +236,7 @@ const tabClients = () => {
           </select>
         </div>
       </div>
+      <div className="overflow-x-auto h-[870px]">
       <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
         <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
           <tr>
@@ -271,6 +272,7 @@ const tabClients = () => {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
     </div>
   );

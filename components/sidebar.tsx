@@ -24,7 +24,7 @@ const Sidebar = () => {
     ]
 
     return (
-        <div className="lg:flex lg:flex-col h-full  bg-gray-100 ">
+        <div className="lg:flex lg:flex-col min-h-screen  bg-gray-100 ">
           <div className="lg:w-60 lg:flex-shrink-0">
             <div className="">
               <div className="flex  items-center justify-center pt-2">
